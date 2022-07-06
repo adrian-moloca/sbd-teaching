@@ -12,10 +12,6 @@ function showHide(el, items) {
     // declare the action - HIDE
     el.addEventListener('mouseover', function () {
         for (let i = 0; i < items.length; i++) {
-            //1
-            //i=0;
-            //items[0] = red;
-            console.log("I'm on " + i + " element - index ", Date.now());
             items[i].style.display = 'none';
         }
     })
