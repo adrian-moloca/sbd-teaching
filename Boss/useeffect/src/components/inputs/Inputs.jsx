@@ -11,6 +11,8 @@ const MyInput = styled((props) => <Input disableUnderline={true} {...props}/>)((
     height: "55px",
     marginBottom: 10,
     padding: 10,
+    minWidth: '80%',
+    maxWidth:'1000px',
   }
 ));
 

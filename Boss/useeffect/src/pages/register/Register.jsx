@@ -43,7 +43,6 @@ function Register() {
             justifyContent: "center",
             alignItems: "center",
             margin: "10%",
-            // width: '70%',
           }}
         >
           <Grid className="username">
