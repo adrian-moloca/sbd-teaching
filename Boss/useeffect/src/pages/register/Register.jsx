@@ -10,39 +10,33 @@ function Register() {
     backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#532da8",
     ...theme.typography.body2,
     padding: theme.spacing(1),
-    width:'100%',
-    textAlign: "center",
     borderRadius: "10px",
     boxShadow: "5px 5px 15px 5px #000000",
     color: "#9889ba",
     display: 'flex',
-    flex: 'row'
+    flex: 'row',
+    justifyContent:"flex-end",
+    margin: '10px',
   }));
 
   return (
-    <Box sx={{display:'flex', justifyContent:'center', marginTop:'200px'}}>
+    <Box sx={{display:'flex', justifyContent:'center', marginTop:'100px'}}>
       <Grid
         className="form"
         style={{
           backgroundColor: "grey",
           boxShadow: "5px 5px 15px 5px #000000",
-        //   width: "50%",
-        minWidth: '50%',
-        maxWidth: '90%',
-          display: "flex",
-          justifyContent: "center",
-          flexDirection: "column",
+          minWidth: '40%',
           borderRadius: "50px",
         }}
       >
         <div
           style={{
             display: "flex",
-            backgroundColor: "grey",
             flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            margin: "10%",
+            margin: "5%",
+            marginRight:'5%',
+            width: '90%',
           }}
         >
           <Grid className="username">
